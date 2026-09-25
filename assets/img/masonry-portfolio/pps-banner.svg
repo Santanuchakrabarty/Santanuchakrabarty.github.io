@@ -1,0 +1,6 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+    <image href="masonry-portfolio-3.jpg" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
+    <rect width="800" height="450" fill="black" fill-opacity="0.25"/>
+    <text x="400" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="96" font-weight="800" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle" letter-spacing="8">PPS</text>
+    <text x="400" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="500" fill="#FFFFFF" fill-opacity="0.9" text-anchor="middle" dominant-baseline="middle" letter-spacing="4">PROPERTY SERVICES</text>
+</svg>

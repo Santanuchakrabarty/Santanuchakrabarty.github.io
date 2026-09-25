@@ -28,8 +28,17 @@
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <i class="fas fa-bars"></i>
+            <div class="nav-actions">
+                <div class="cmd-k-btn" id="cmd-k-btn" title="Command Palette">
+                    <i class="fas fa-search"></i>
+                    <span class="cmd-k-text">⌘K</span>
+                </div>
+                <div class="theme-toggle" id="theme-toggle" title="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     </nav>
@@ -343,7 +352,12 @@
                     </div>
                     <div class="portfolio-info">
                         <h3>Vestige Verdict Dashboard</h3>
-                        <p>Next JS</p>
+                        <div class="case-study">
+                            <p><strong>Problem:</strong> Required an application to visualize real-time order flow data, profit and loss, and overall performance metrics.</p>
+                            <p><strong>Role:</strong> Sole developer; designed and built the complete application using Next.js.</p>
+                            <p><strong>Tech Stack:</strong> Next.js, Node.js, HTML, Tailwind CSS</p>
+                            <p><strong>Outcome:</strong> Delivered a highly responsive, real-time dashboard that significantly improved data visibility and business decision-making.</p>
+                        </div>
                     </div>
                 </div>
                 <!-- Project 3 -->
@@ -379,7 +393,15 @@
                     </div>
                     <div class="portfolio-info">
                         <h3>Om Logistics ERP</h3>
-                        <p>Angular Software</p>
+                        <div class="case-study">
+                            <p><strong>Overview:</strong> Built and scaled a pan-India ERP suite spanning automated order booking through full lifecycle sales management.</p>
+                            <ul style="margin-left: 20px; margin-bottom: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                                <li style="margin-bottom: 5px;">Designed and maintained 500+ decoupled, high-performance Angular components across the codebase.</li>
+                                <li style="margin-bottom: 5px;">Implemented dynamic, multi-format report generation with instant preview and asynchronous downloads.</li>
+                                <li style="margin-bottom: 5px;">Resolved persistent legacy issues across both the Angular front end and Node.js back end.</li>
+                            </ul>
+                            <p><strong>Tech Stack:</strong> Angular 8+, Bootstrap, Angular Material, Firebase, Node.js, Oracle DB</p>
+                        </div>
                     </div>
                 </div>
                 <!-- Project 5 -->
@@ -393,7 +415,19 @@
                     </div>
                     <div class="portfolio-info">
                         <h3>Elephant Trunk App</h3>
-                        <p>Angular Web App</p>
+                        <div class="case-study">
+                            <p><strong>Overview:</strong> An educational e-commerce platform where parents create custom avatars resembling their child. The app dynamically generates a personalized storybook tailored around the letters of the child's name, turning spelling practice into an interactive experience.</p>
+                            <p><strong>Role:</strong> Primary frontend developer; built the app end-to-end in Angular, including the avatar customization, dynamic storybook rendering engine, and purchase/checkout flow.</p>
+                            <p><strong>Key Features:</strong></p>
+                            <ul style="margin-left: 20px; margin-bottom: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                                <li style="margin-bottom: 5px;"><strong>Avatar builder:</strong> Choose facial features, skin tone, hair, and outfits.</li>
+                                <li style="margin-bottom: 5px;"><strong>Name-based story:</strong> Dynamic content built around each letter of the child's name.</li>
+                                <li style="margin-bottom: 5px;"><strong>Live preview:</strong> Interactive page-by-page preview before purchase.</li>
+                                <li style="margin-bottom: 5px;"><strong>Billing & checkout:</strong> Integrated address and payment flow.</li>
+                            </ul>
+                            <p><strong>Tech Stack:</strong> Angular 8+, TypeScript, HTML5, SCSS</p>
+                            <p><strong>Outcome:</strong> Turned a routine early-learning task into a personalized, emotionally engaging product for parents and kids.</p>
+                        </div>
                     </div>
                 </div>
                 <!-- Project 6 -->
@@ -406,8 +440,144 @@
                         </div>
                     </div>
                     <div class="portfolio-info">
-                        <h3>Elephant Trunk Web</h3>
-                        <p>Angular Web App</p>
+                        <h3>Learning In Tune</h3>
+                        <div class="case-study">
+                            <p><strong>Overview:</strong> Angular Web App — EdTech Platform (Team of 3, Jun 2021 – Dec 2021)</p>
+                            <ul style="margin-left: 20px; margin-bottom: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                                <li style="margin-bottom: 5px;">An innovative web application designed to teach children singing patterns and melodic structures through interactive musical exercises.</li>
+                                <li style="margin-bottom: 5px;">Developed interactive client interfaces for scheduling, automated reminders, and online fee processing.</li>
+                            </ul>
+                            <p><strong>Tech Stack:</strong> Angular 11, Bootstrap, CSS3, Angular Material, PHP (Laravel), MySQL</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="portfolio-item filter-app">
+                    <div class="portfolio-img">
+                        <img src="assets/img/masonry-portfolio/fudda.png" alt="Fudda">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/masonry-portfolio/fudda.png" target="_blank" class="portfolio-link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Fudda — Food Delivery & Chef Booking Platform</h3>
+                        <div class="case-study">
+                            <p><strong>Overview:</strong> A dual-purpose food platform built for a US-based client — combining traditional food delivery with an on-demand chef booking service. Includes a built-in real-time chat, powered by Firebase, letting users and chefs communicate directly through the dashboard.</p>
+                            <p><strong>Role:</strong> Frontend development in Angular — building the ordering flow, chef booking/scheduling system, and the real-time chat interface integrated with Firebase.</p>
+                            <p><strong>Key Features:</strong></p>
+                            <ul style="margin-left: 20px; margin-bottom: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                                <li style="margin-bottom: 5px;"><strong>Dual ordering modes:</strong> Order-in from a recipe menu, or book a chef for in-person cooking.</li>
+                                <li style="margin-bottom: 5px;"><strong>Chef booking & scheduling:</strong> Users select date, time, and event type.</li>
+                                <li style="margin-bottom: 5px;"><strong>Real-time chat:</strong> Firebase-powered messaging between users and chefs.</li>
+                                <li style="margin-bottom: 5px;"><strong>Dashboard:</strong> Order tracking, booking history, and chat in one place.</li>
+                            </ul>
+                            <p><strong>Tech Stack:</strong> Angular, Firebase (real-time chat), TypeScript, HTML5, CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 8 -->
+                <div class="portfolio-item filter-web">
+                    <div class="portfolio-img">
+                        <img src="assets/img/masonry-portfolio/road.png" alt="ROAD System">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/masonry-portfolio/road.png" target="_blank" class="portfolio-link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>ROAD — Report Generation & Data Workflow System</h3>
+                        <div class="case-study">
+                            <p><strong>Overview:</strong> ROAD is a comprehensive workflow management platform built to handle data transformation and transfer between systems, with automated generation of PDF and other report formats. It features job scheduling and a dynamic dashboard for monitoring workflows in real time.</p>
+                            <p><strong>Role:</strong> Frontend development in Angular 8, working within a team of 4+ over a 12+ month engagement — building the dashboard, report configuration UI, and job-scheduling interface.</p>
+                            <p><strong>Key Features:</strong></p>
+                            <ul style="margin-left: 20px; margin-bottom: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                                <li style="margin-bottom: 5px;"><strong>Data Pipeline:</strong> Data transformation & transfer between connected systems.</li>
+                                <li style="margin-bottom: 5px;"><strong>Job Scheduling:</strong> Engine with configurable triggers.</li>
+                                <li style="margin-bottom: 5px;"><strong>Real-time Dashboard:</strong> Dynamic dashboard for workflow monitoring.</li>
+                                <li style="margin-bottom: 5px;"><strong>Report Generation:</strong> Automated PDF and other report formats.</li>
+                            </ul>
+                            <p><strong>Tech Stack:</strong> Angular 8, Angular Material, Bootstrap, HTML5, CSS, Java, MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 9 -->
+                <div class="portfolio-item filter-app">
+                    <div class="portfolio-img">
+                        <img src="assets/img/portfolio/pps-project-banner.jpg" alt="PPS System">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/portfolio/pps-project-banner.jpg" target="_blank" class="portfolio-link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>PPS — Property Buying & Rental Platform</h3>
+                        <div class="case-study">
+                            <p><strong>Overview:</strong> PPS (Perimeter Property Services) is a real estate application enabling users to buy or rent properties located across the USA — covering property listings, search, and the buyer/renter workflow end-to-end.</p>
+                            <p><strong>Role:</strong> Sole Angular developer on the project — owned the entire frontend independently and delivered the full application in 4 months with a 2-person team.</p>
+                            <p><strong>Key Features:</strong></p>
+                            <ul style="margin-left: 20px; margin-bottom: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                                <li style="margin-bottom: 5px;"><strong>Property listing & search:</strong> Comprehensive search and filtering.</li>
+                                <li style="margin-bottom: 5px;"><strong>Buy/rent workflow:</strong> Dedicated flow for USA-based properties.</li>
+                                <li style="margin-bottom: 5px;"><strong>Responsive UI:</strong> Production-ready user interface built solo end-to-end.</li>
+                            </ul>
+                            <p><strong>Tech Stack:</strong> Angular 6, Angular Material, Bootstrap, HTML5, SCSS, Java, Postgres</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 10 -->
+                <div class="portfolio-item filter-app">
+                    <div class="portfolio-img">
+                        <img src="assets/img/masonry-portfolio/medepl.png" alt="Medepal Platform">
+                        <div class="portfolio-overlay">
+                            <a href="assets/img/masonry-portfolio/medepl.png" target="_blank" class="portfolio-link"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Medepal — HealthTech Platform</h3>
+                        <div class="case-study">
+                            <p><strong>Overview:</strong> HealthTech Platform (Team of 4)</p>
+                            <p><strong>Key Achievements:</strong></p>
+                            <ul style="margin-left: 20px; margin-bottom: 10px; color: var(--text-muted); font-size: 0.9rem;">
+                                <li style="margin-bottom: 5px;">Designed interfaces using PrimeNG and Material UI for doctor onboarding, appointment scheduling, and remote video consultation.</li>
+                                <li style="margin-bottom: 5px;">Maintained direct client dialogue to refine specifications, sustaining consistent weekly milestone delivery.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Activity Section -->
+    <section id="recent-activity" class="recent-activity">
+        <div class="container">
+            <div class="section-title">
+                <h2>What I'm <span>Building</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="activity-timeline" id="gh-activity-container">
+                <!-- Skeletons -->
+                <div class="activity-item skeleton">
+                    <div class="activity-icon skeleton-box"></div>
+                    <div class="activity-content">
+                        <div class="skeleton-text short"></div>
+                        <div class="skeleton-text long"></div>
+                    </div>
+                </div>
+                <div class="activity-item skeleton">
+                    <div class="activity-icon skeleton-box"></div>
+                    <div class="activity-content">
+                        <div class="skeleton-text short"></div>
+                        <div class="skeleton-text long"></div>
+                    </div>
+                </div>
+                <div class="activity-item skeleton">
+                    <div class="activity-icon skeleton-box"></div>
+                    <div class="activity-content">
+                        <div class="skeleton-text short"></div>
+                        <div class="skeleton-text long"></div>
                     </div>
                 </div>
             </div>
@@ -466,6 +636,20 @@
             </div>
         </div>
     </footer>
+
+    <!-- Command Palette -->
+    <div id="command-palette-overlay" class="cmd-overlay" style="display: none;">
+        <div class="cmd-palette">
+            <div class="cmd-header">
+                <i class="fas fa-search"></i>
+                <input type="text" id="cmd-input" placeholder="Search commands..." autocomplete="off">
+                <span class="cmd-esc">ESC</span>
+            </div>
+            <div class="cmd-results" id="cmd-results">
+                <!-- Results injected by JS -->
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="script.js"></script>
